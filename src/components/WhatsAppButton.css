@@ -1,0 +1,43 @@
+body {
+    background: #d8d8d8;
+    zoom: 1.2;
+}
+
+a.wp {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: roboto;
+    background: #25D366;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 25px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+/* Mobile view (default) */
+@media (max-width: 767px) {
+    a.wp {
+        top: 60%;
+        width: 150px;
+        font-size: 0.8rem;
+
+    }
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+    a.wp {
+        top: 70%;
+        width: 250px;
+        font-size: 2rem;
+    }
+}

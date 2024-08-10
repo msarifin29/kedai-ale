@@ -1,12 +1,6 @@
 
 import React from 'react';
-// import AppBar from '@mui/material/AppBar';
-// import Toolbar from '@mui/material/Toolbar';
-// import Typography from '@mui/material/Typography';
-// import Button from '@mui/material/Button';
-// import IconButton from '@mui/material/IconButton';
-// import { Box } from '@mui/material';
-// import { yellow } from '@mui/material/colors';
+import './AppBar.css';
 
 const MyAppBar: React.FC = () => {
     return (
@@ -16,8 +10,16 @@ const MyAppBar: React.FC = () => {
             width: "100%",
             height: '50px',
             padding: '10px',
-            fontSize: 'bold'
-        }}>Catering</nav>
+            fontSize: 'bold',
+            display: 'flex',
+            alignItems: 'center',
+            boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)',
+            position: "sticky",
+            top: "0",
+            zIndex: "1000"
+        }}>
+            <p className='p'>Catering</p>
+        </nav>
     );
 };
 
