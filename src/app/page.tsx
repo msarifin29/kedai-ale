@@ -23,13 +23,12 @@ const Home: React.FC = () => {
             Mulai dari menu tradisional hingga modern.
             Untuk informasi lebih lanjut.
           </p>
-
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
           <a className="wp" href="https://wa.me/6289681408226">
-            <i className="fab fa-whatsapp fa-2x"></i>
+            <i className="fa fa-whatsapp "></i>
             <span>089681408226</span>
           </a>
         </div>
-
       </div>
     </div>
   );

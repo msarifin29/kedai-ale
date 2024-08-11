@@ -7,19 +7,16 @@ a.wp {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: roboto;
+    font-family: Arial;
     background: #25D366;
     color: #fff;
     display: inline-block;
     padding: 5px;
     border-radius: 25px;
-
     display: grid;
     align-items: center;
     justify-content: center;
-
     text-decoration: none;
-
     cursor: pointer;
 }
 
@@ -29,7 +26,7 @@ a.wp {
         top: 60%;
         width: 150px;
         font-size: 0.8rem;
-
+        grid-template-columns: 20px 80px;
     }
 }
 
@@ -37,7 +34,8 @@ a.wp {
 @media (min-width: 768px) {
     a.wp {
         top: 70%;
-        width: 250px;
+        width: 350px;
         font-size: 2rem;
+        grid-template-columns: 40px 200px;
     }
 }
