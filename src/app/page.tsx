@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import MyAppBar from '../components/AppBar';
+import SliderCart from '../components/SliderCart';
 import '../components/ImageWithOverlay.css';
 import '../components/WhatsAppButton.css';
 
@@ -30,6 +31,7 @@ const Home: React.FC = () => {
           </a>
         </div>
       </div>
+      <SliderCart />
     </div>
   );
 };

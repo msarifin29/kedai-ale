@@ -18,7 +18,7 @@ const MyAppBar: React.FC = () => {
             top: "0",
             zIndex: "1000"
         }}>
-            <p className='p'>Catering</p>
+            <p className='p'>Kedai Ale</p>
         </nav>
     );
 };

@@ -33,7 +33,7 @@ a.wp {
 /* Desktop view */
 @media (min-width: 768px) {
     a.wp {
-        top: 70%;
+        top: 72%;
         width: 350px;
         font-size: 2rem;
         grid-template-columns: 40px 200px;
