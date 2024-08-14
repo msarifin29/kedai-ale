@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import MyAppBar from '../components/AppBar';
 import SliderCart from '../components/SliderCart';
+import SliderFood from '../components/SliderFood';
 import '../components/ImageWithOverlay.css';
 import '../components/WhatsAppButton.css';
 
@@ -25,13 +26,14 @@ const Home: React.FC = () => {
             Untuk informasi lebih lanjut.
           </p>
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
-          <a className="wp" href="https://wa.me/6289681408226">
+          <a className="wp" href="https://wa.me/6289654549600">
             <i className="fa fa-whatsapp "></i>
-            <span>089681408226</span>
+            <span style={{ fontFamily: "serif" }}>Bu Helmi</span>
           </a>
         </div>
       </div>
       <SliderCart />
+      <SliderFood />
     </div>
   );
 };

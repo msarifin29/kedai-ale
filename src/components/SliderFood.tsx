@@ -1,38 +1,40 @@
 "use client";
 
-import React, { useState } from 'react';
 import CartItem from './CartItem';
 import './SliderCart.css';
 
-const SliderCart: React.FC = () => {
+const SliderFood: React.FC = () => {
 
     const items = [
         {
-            product_name: 'Donut',
-            image: '/donat.jpg',
+            product_name: 'Ayam Geprek',
+            image: '/ayam_geprek.jpg',
             badge: '',
             description: '',
-            price: 'Rp 5.000',
+            price: 'Rp 15.000',
         },
         {
-            product_name: 'Crombolona',
-            image: 'crombolona.jpg',
+            product_name: 'Bakso',
+            image: 'bakso.jpg',
             badge: '',
             description: '',
-            price: 'Rp 8.000',
+            price: 'Rp 10.000',
         },
         {
-            product_name: 'Risol',
-            image: 'risol.webp',
+            product_name: 'Opor Ayam',
+            image: 'opor.jpg',
             badge: '',
             description: '',
-            price: 'Rp 5.000',
+            price: 'Rp 10.000',
         },
+
+
     ];
 
+
     return (
-        <div className="container-food-card">
-            <h2 className="h2">Aneka Jajanan</h2>
+        <div >
+            <h2 className="h2">Aneka Makanan</h2>
             <div className="conteiner-food">
                 <button className="slider-button left" >❮</button>
                 <div className="slider-wrapper" >
@@ -54,4 +56,4 @@ const SliderCart: React.FC = () => {
         </div>
     );
 }
-export default SliderCart
+export default SliderFood

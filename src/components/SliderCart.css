@@ -31,7 +31,6 @@
 
 .product-card {
     flex: 0 0 auto;
-    margin-right: 16px;
     scroll-snap-align: start;
 }
 
@@ -44,6 +43,7 @@
 @media (max-width: 767px) {
     .product-card {
         width: 150px;
+        margin-right: 10px;
     }
 }
 
@@ -51,6 +51,7 @@
 @media (min-width: 768px) {
     .product-card {
         width: 280px;
+        margin-right: 5px;
     }
 }
 
@@ -87,4 +88,18 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+/* Mobile view (default) */
+@media (max-width: 767px) {
+    .container-food-card {
+        margin-top: -10%;
+    }
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+    .container-food-card {
+        height: -5%;
+    }
 }
