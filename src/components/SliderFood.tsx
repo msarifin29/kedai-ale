@@ -17,7 +17,7 @@ const SliderFood: React.FC = () => {
             product_name: 'Bakso',
             image: 'bakso.jpg',
             badge: '',
-            description: '',
+            description: 'Varian Ayam, Sapi',
             price: 'Rp 10.000',
         },
         {

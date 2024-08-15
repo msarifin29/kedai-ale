@@ -5,7 +5,7 @@ import './AppBar.css';
 const MyAppBar: React.FC = () => {
     return (
         <nav style={{
-            backgroundColor: "#ffee93",
+            backgroundColor: "#228B22",
             color: 'black',
             width: "100%",
             height: '50px',

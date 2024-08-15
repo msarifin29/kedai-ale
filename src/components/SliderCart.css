@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
 .h2 {
     text-align: center;
     font-weight: 600;
-    font-family: serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: -40px,
 }
 
 /* Mobile view (default) */
 @media (max-width: 767px) {
     .h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 

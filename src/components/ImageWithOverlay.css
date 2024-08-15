@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
 .image-container {
     position: relative;
     width: 100%;
@@ -15,7 +17,7 @@
 .overlay-text {
     position: absolute;
     left: 50%;
-    font-family: roboto;
+    font-family: 'Poppins', sans-serif;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: calc(1.5vw + 0.5rem);
@@ -42,6 +44,6 @@
     .overlay-text {
         top: 40%;
         width: 600px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
